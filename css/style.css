@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     
 }
@@ -47,20 +47,24 @@ main {
     
 }
 
+
+
 .col {
-    width: 33%;
+    width: 333px;
     background-color: #0f0e17;
-    height: 100px;
+    height: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    border: 4px solid rgba(212, 212, 212, 0.9);
     
 }
 
 .col img {
-
+    width: 100px;
 }
 
-span {
-    display: block;
-}
+
 
 a.email {
     color: #46a0c7;
