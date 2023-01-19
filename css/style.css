@@ -5,11 +5,27 @@
     font-family: 'Fredoka', sans-serif;
 }
 
-body {
+.container {
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
     
 }
+
+/* float */
+.clear-fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+/* /float */
 
 #header h1 {
     padding-top: 30px;
@@ -23,5 +39,30 @@ body {
 #header p {
     text-align: justify;
     text-align-last: center;
+}
 
+main {
+    padding-top: 50px;
+    color: white;
+    
+}
+
+.col {
+    width: 33%;
+    background-color: #0f0e17;
+    height: 100px;
+    
+}
+
+.col img {
+
+}
+
+span {
+    display: block;
+}
+
+a.email {
+    color: #46a0c7;
+    text-decoration: none;
 }
