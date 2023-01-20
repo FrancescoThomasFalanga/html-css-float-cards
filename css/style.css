@@ -3,17 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
 }
 
 body {
     color: white;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 /* /general settings */
 
@@ -24,20 +23,15 @@ body {
     clear: both;
 }
 
-img, .float-left {
+.profile-img, .float-left {
     float: left;
-}
-
-.float-right {
-    float: right;
 }
 /* /float */
 
 /* header */
 
 #header h1 {
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding: 30px 0 40px 0;
     text-align: center;
     color: #e5316f;
     font-size: 2.4em;
@@ -60,8 +54,8 @@ img, .float-left {
     border: 4px solid rgba(255, 255, 255, 0.9);
 }
 
-.col .profile-img {
-    width: 90px;
+.profile-img {
+    height: 90px;
     margin-right: 10px;
 }
 
@@ -70,8 +64,18 @@ img, .float-left {
     padding-top: 5px;
 }
 
-a.email {
-    color: #46a0c7;
-    text-decoration: none;
+.col span {
+    padding-bottom: 5px;
 }
+
+.email {
+    text-decoration: none;
+    color: #46a0c7;
+}
+
+.email:hover {
+    color: #46a0c7;
+    text-decoration: underline;
+}
+
 /* /columns */
